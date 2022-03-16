@@ -1,3 +1,10 @@
+/*
+Object: Utilize SQL to clean dataset prior to using Tableau 
+Author: Thomas Allen
+Description: Using COVID-19 data this project deomonstrates
+	some SQL queries with the intent of being used in visualizations
+*/
+
 SELECT * 
 FROM PortfolioProject..Sheet1$
 WHERE continent is not null
